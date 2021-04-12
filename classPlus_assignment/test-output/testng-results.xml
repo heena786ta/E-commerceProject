@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98417" started-at="2021-04-12T15:48:39Z" finished-at="2021-04-12T15:50:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98417" started-at="2021-04-12T15:48:39Z" finished-at="2021-04-12T15:50:17Z">
+      <class name="com.classplus.assignment.Search">
+        <test-method status="PASS" signature="extent_report()[pri:0, instance:com.classplus.assignment.Search@548e7350]" name="extent_report" is-config="true" duration-ms="6078" started-at="2021-04-12T15:48:32Z" finished-at="2021-04-12T15:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent_report -->
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:com.classplus.assignment.Search@548e7350]" name="open_browser" is-config="true" duration-ms="25950" started-at="2021-04-12T15:48:39Z" finished-at="2021-04-12T15:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method status="PASS" signature="SearchPhone()[pri:0, instance:com.classplus.assignment.Search@548e7350]" name="SearchPhone" duration-ms="71974" started-at="2021-04-12T15:49:05Z" finished-at="2021-04-12T15:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPhone -->
+        <test-method status="PASS" signature="appium_server_stop(org.testng.ITestResult)[pri:0, instance:com.classplus.assignment.Search@548e7350]" name="appium_server_stop" is-config="true" duration-ms="404" started-at="2021-04-12T15:50:17Z" finished-at="2021-04-12T15:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchPhone status=SUCCESS method=Search.SearchPhone()[pri:0, instance:com.classplus.assignment.Search@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium_server_stop -->
+        <test-method status="PASS" signature="flush_report()[pri:0, instance:com.classplus.assignment.Search@548e7350]" name="flush_report" is-config="true" duration-ms="1579" started-at="2021-04-12T15:50:17Z" finished-at="2021-04-12T15:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush_report -->
+      </class> <!-- com.classplus.assignment.Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
